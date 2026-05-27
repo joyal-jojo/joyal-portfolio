@@ -15,7 +15,7 @@ export const profile = {
   photo: './profile-photo.jpg.jpg',
   summary:
     'Proactive and multidisciplinary Mechanical Engineer with strengths in system design & optimisation, product development, process improvement, and root cause analysis. Applies engineering rigour under high pressure, technically demanding environments — from aerospace overhaul to manufacturing optimisation. Driven by first-principles thinking and systems engineering to deliver robust, high-performance solutions across diverse engineering contexts.',
-  workRights: 'Full work rights under Temporary Graduate Visa (Subclass 485)',
+  workRights: 'Full work rights under Temporary Graduate Visa (Subclass 485) — Valid until 10th March 2029',
 };
 
 export const profileHighlights = [

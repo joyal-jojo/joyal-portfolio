@@ -7,7 +7,7 @@
 export const profile = {
   name: 'Joyal Jojo',
   title: 'Mechanical Engineer',
-  tagline: 'System Design & Optimisation · Aerospace · Reliability & Maintenance · FMCG',
+  tagline: 'System Design & Optimisation · CAD & 3D Modelling · Aerospace · Reliability & Maintenance',
   email: 'joyaljojo.connect@gmail.com',
   linkedin: 'https://www.linkedin.com/in/joyal-jojo',
   location: 'Melbourne, Australia',

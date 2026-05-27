@@ -298,7 +298,7 @@ experience.forEach((exp, idx) => {
     imagesHTML = `
       <div class="timeline-gallery">
         ${exp.images.map(img => `
-          <img src="${img.src}" alt="${img.alt}" class="timeline-gallery-img" onclick="window.open('/experience.html?id=${idx}', '_blank')" />
+          <img src="${img.src}" alt="${img.alt}" class="timeline-gallery-img" onclick="window.open('./experience.html?id=${idx}', '_blank')" />
         `).join('')}
       </div>
     `;
@@ -306,7 +306,7 @@ experience.forEach((exp, idx) => {
 
   item.innerHTML = `
     <div class="timeline-dot" style="border-color: ${exp.color}; box-shadow: 0 0 12px ${exp.color}40;"></div>
-    <div class="timeline-header" style="cursor: pointer;" onclick="window.open('/experience.html?id=${idx}', '_blank')">
+    <div class="timeline-header" style="cursor: pointer;" onclick="window.open('./experience.html?id=${idx}', '_blank')">
       <span class="timeline-role" style="transition: color 0.3s;" onmouseover="this.style.color='var(--accent-cyan)'" onmouseout="this.style.color=''">${exp.icon} ${exp.role}</span>
       <span class="timeline-period">${exp.period}</span>
     </div>
@@ -347,7 +347,7 @@ projects.forEach((proj, idx) => {
     </div>
   `;
   card.addEventListener('click', () => {
-    window.open('/project.html?id=' + idx, '_blank');
+    window.open('./project.html?id=' + idx, '_blank');
   });
   projectsGrid.appendChild(card);
 });

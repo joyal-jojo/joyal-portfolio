@@ -12,7 +12,7 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/joyal-jojo',
   location: 'Melbourne, Australia',
   // Replace with your own photo path when ready (place in public/ folder)
-  photo: '/profile-photo.jpg.jpg',
+  photo: './profile-photo.jpg.jpg',
   summary:
     'Proactive and multidisciplinary Mechanical Engineer with strengths in system design & optimisation, product development, process improvement, and root cause analysis. Applies engineering rigour under high pressure, technically demanding environments — from aerospace overhaul to manufacturing optimisation. Driven by first-principles thinking and systems engineering to deliver robust, high-performance solutions across diverse engineering contexts.',
   workRights: 'Full work rights under Temporary Graduate Visa (Subclass 485)',
@@ -104,10 +104,10 @@ export const experience = [
     icon: '🚂',
     color: '#00f5ff',
     images: [
-      { src: '/Career timeline/Miniature Railways/PXL_20260503_004701335.jpg', alt: 'Miniature Railway 1' },
-      { src: '/Career timeline/Miniature Railways/PXL_20260503_010704096.jpg', alt: 'Miniature Railway 2' },
-      { src: '/Career timeline/Miniature Railways/PXL_20260503_010716570.jpg', alt: 'Miniature Railway 3' },
-      { src: '/Career timeline/Miniature Railways/PXL_20260503_022252102.jpg', alt: 'Miniature Railway 4' }
+      { src: './Career timeline/Miniature Railways/PXL_20260503_004701335.jpg', alt: 'Miniature Railway 1' },
+      { src: './Career timeline/Miniature Railways/PXL_20260503_010704096.jpg', alt: 'Miniature Railway 2' },
+      { src: './Career timeline/Miniature Railways/PXL_20260503_010716570.jpg', alt: 'Miniature Railway 3' },
+      { src: './Career timeline/Miniature Railways/PXL_20260503_022252102.jpg', alt: 'Miniature Railway 4' }
     ],
   },
   {
@@ -123,9 +123,9 @@ export const experience = [
     icon: '💨',
     color: '#a855f7',
     images: [
-      { src: '/Career timeline/Sire/Sire_Wind team.jpg', alt: 'SIRE Wind Team' },
-      { src: '/Career timeline/Sire/V1.jpg', alt: 'SIRE Prototype V1' },
-      { src: '/Career timeline/Sire/V2.jpg', alt: 'SIRE Prototype V2' }
+      { src: './Career timeline/Sire/Sire_Wind team.jpg', alt: 'SIRE Wind Team' },
+      { src: './Career timeline/Sire/V1.jpg', alt: 'SIRE Prototype V1' },
+      { src: './Career timeline/Sire/V2.jpg', alt: 'SIRE Prototype V2' }
     ],
   },
   {
@@ -139,7 +139,7 @@ export const experience = [
     ],
     icon: '📊',
     color: '#fbbf24',
-    files: [{ url: '/Internship/pwc.pdf', label: 'Internship Certificate' }],
+    files: [{ url: './Internship/pwc.pdf', label: 'Internship Certificate' }],
   },
   {
     role: 'Engineering Intern — Quality & Overhaul',
@@ -154,13 +154,13 @@ export const experience = [
     icon: '✈️',
     color: '#f43f5e',
     images: [
-      { src: '/Career timeline/HAL/Engine HAL.png', alt: 'HAL Engine' },
-      { src: '/Career timeline/HAL/HAL_hanger.jpg', alt: 'HAL Hangar 1' },
-      { src: '/Career timeline/HAL/Hanger_2.jpg', alt: 'HAL Hangar 2' },
-      { src: '/Career timeline/HAL/Hanger_3.jpg', alt: 'HAL Hangar 3' },
-      { src: '/Career timeline/HAL/Screenshot 2026-05-27 122323.png', alt: 'HAL Diagram' }
+      { src: './Career timeline/HAL/Engine HAL.png', alt: 'HAL Engine' },
+      { src: './Career timeline/HAL/HAL_hanger.jpg', alt: 'HAL Hangar 1' },
+      { src: './Career timeline/HAL/Hanger_2.jpg', alt: 'HAL Hangar 2' },
+      { src: './Career timeline/HAL/Hanger_3.jpg', alt: 'HAL Hangar 3' },
+      { src: './Career timeline/HAL/Screenshot 2026-05-27 122323.png', alt: 'HAL Diagram' }
     ],
-    files: [{ url: '/Internship/HAL Internship certificate.pdf', label: 'Internship Certificate' }],
+    files: [{ url: './Internship/HAL Internship certificate.pdf', label: 'Internship Certificate' }],
   },
   {
     role: 'Engineering Consulting (Virtual)',
@@ -173,7 +173,7 @@ export const experience = [
     ],
     icon: '🛤️',
     color: '#22d3ee',
-    files: [{ url: '/Internship/GHD.pdf', label: 'Consulting Certificate' }],
+    files: [{ url: './Internship/GHD.pdf', label: 'Consulting Certificate' }],
   },
 ];
 
@@ -189,9 +189,9 @@ export const projects = [
     gradient: 'linear-gradient(135deg, #a855f7 0%, #7c3aed 50%, #6d28d9 100%)',
     icon: '🏭',
     award: false,
-    bannerImage: '/projects/industrial-redesign/Redesigned parts collage.png',
-    images: [{ src: '/projects/industrial-redesign/Redesigned parts collage.png', alt: 'Redesigned Parts Collage' }],
-    files: [{ url: '/projects/industrial-redesign/DMP_Assignment1.pdf', label: 'DMP Assignment Report' }],
+    bannerImage: './projects/industrial-redesign/Redesigned parts collage.png',
+    images: [{ src: './projects/industrial-redesign/Redesigned parts collage.png', alt: 'Redesigned Parts Collage' }],
+    files: [{ url: './projects/industrial-redesign/DMP_Assignment1.pdf', label: 'DMP Assignment Report' }],
   },
   {
     title: 'Pressure Vessel Integrity',
@@ -203,14 +203,14 @@ export const projects = [
     gradient: 'linear-gradient(135deg, #f43f5e 0%, #e11d48 50%, #be123c 100%)',
     icon: '⚙️',
     award: false,
-    bannerImage: '/projects/pressure-vessel/Pressure vessel.png',
+    bannerImage: './projects/pressure-vessel/Pressure vessel.png',
     images: [
-      { src: '/projects/pressure-vessel/Pressure vessel.png', alt: 'Pressure Vessel Design' },
-      { src: '/projects/pressure-vessel/FEA_P_V.png', alt: 'FEA Analysis' }
+      { src: './projects/pressure-vessel/Pressure vessel.png', alt: 'Pressure Vessel Design' },
+      { src: './projects/pressure-vessel/FEA_P_V.png', alt: 'FEA Analysis' }
     ],
     files: [
-      { url: '/projects/pressure-vessel/Solid_Report.pdf', label: 'Solid Mechanics Report' },
-      { url: '/projects/pressure-vessel/Pressure Vessel Drawing.pdf', label: 'Pressure Vessel Drawing' }
+      { url: './projects/pressure-vessel/Solid_Report.pdf', label: 'Solid Mechanics Report' },
+      { url: './projects/pressure-vessel/Pressure Vessel Drawing.pdf', label: 'Pressure Vessel Drawing' }
     ],
   },
   {
@@ -223,15 +223,15 @@ export const projects = [
     gradient: 'linear-gradient(135deg, #22d3ee 0%, #06b6d4 50%, #0891b2 100%)',
     icon: '🦴',
     award: false,
-    bannerImage: '/projects/reverse component from a spinal _rig/IMG_20250328_120804.jpg',
+    bannerImage: './projects/reverse component from a spinal _rig/IMG_20250328_120804.jpg',
     images: [
-      { src: '/projects/reverse component from a spinal _rig/IMG_20250328_120804.jpg', alt: 'Physical Component' },
-      { src: '/projects/reverse component from a spinal _rig/half_size_5_1_5.png', alt: 'CAD Model' },
-      { src: '/projects/reverse component from a spinal _rig/Size8.png', alt: 'Size 8 Analysis' },
-      { src: '/projects/reverse component from a spinal _rig/Sze10.png', alt: 'Size 10 Analysis' }
+      { src: './projects/reverse component from a spinal _rig/IMG_20250328_120804.jpg', alt: 'Physical Component' },
+      { src: './projects/reverse component from a spinal _rig/half_size_5_1_5.png', alt: 'CAD Model' },
+      { src: './projects/reverse component from a spinal _rig/Size8.png', alt: 'Size 8 Analysis' },
+      { src: './projects/reverse component from a spinal _rig/Sze10.png', alt: 'Size 10 Analysis' }
     ],
     files: [
-      { url: '/projects/reverse component from a spinal _rig/Reverse Eng.pdf', label: 'Reverse Engineering Report' }
+      { url: './projects/reverse component from a spinal _rig/Reverse Eng.pdf', label: 'Reverse Engineering Report' }
     ],
   },
   {
@@ -244,18 +244,18 @@ export const projects = [
     gradient: 'linear-gradient(135deg, #f97316 0%, #ea580c 50%, #c2410c 100%)',
     icon: '🚲',
     award: false,
-    bannerImage: '/projects/Bicycle Frame/Isometric .png',
+    bannerImage: './projects/Bicycle Frame/Isometric .png',
     images: [
-      { src: '/projects/Bicycle Frame/Isometric .png', alt: 'Isometric View' },
-      { src: '/projects/Bicycle Frame/FEA_Cycle.png', alt: 'FEA Simulation' },
-      { src: '/projects/Bicycle Frame/Top_S_Cycle.png', alt: 'Top Section' }
+      { src: './projects/Bicycle Frame/Isometric .png', alt: 'Isometric View' },
+      { src: './projects/Bicycle Frame/FEA_Cycle.png', alt: 'FEA Simulation' },
+      { src: './projects/Bicycle Frame/Top_S_Cycle.png', alt: 'Top Section' }
     ],
     files: [
-      { url: '/projects/Bicycle Frame/Design_and_analysis_of_a_bicycle_frame (1).pdf', label: 'Bicycle Frame Analysis' },
-      { url: '/projects/Bicycle Frame/2D.pdf', label: '2D Drawing' },
-      { url: '/projects/Bicycle Frame/2D_1.pdf', label: '2D Drawing 1' },
-      { url: '/projects/Bicycle Frame/Iso_Q2.pdf', label: 'Isometric View Q2' },
-      { url: '/projects/Bicycle Frame/Q3_1.pdf', label: 'FEA Results' }
+      { url: './projects/Bicycle Frame/Design_and_analysis_of_a_bicycle_frame (1).pdf', label: 'Bicycle Frame Analysis' },
+      { url: './projects/Bicycle Frame/2D.pdf', label: '2D Drawing' },
+      { url: './projects/Bicycle Frame/2D_1.pdf', label: '2D Drawing 1' },
+      { url: './projects/Bicycle Frame/Iso_Q2.pdf', label: 'Isometric View Q2' },
+      { url: './projects/Bicycle Frame/Q3_1.pdf', label: 'FEA Results' }
     ],
   },
   {
@@ -268,8 +268,8 @@ export const projects = [
     gradient: 'linear-gradient(135deg, #a3e635 0%, #84cc16 50%, #65a30d 100%)',
     icon: '🌱',
     award: false,
-    bannerImage: '/projects/bio-incubator/Chicken Incubator.png',
-    images: [{ src: '/projects/bio-incubator/Chicken Incubator.png', alt: 'Incubator Hardware' }],
+    bannerImage: './projects/bio-incubator/Chicken Incubator.png',
+    images: [{ src: './projects/bio-incubator/Chicken Incubator.png', alt: 'Incubator Hardware' }],
   },
   // ── Control Systems ────────────────────────────
   {
@@ -282,11 +282,11 @@ export const projects = [
     gradient: 'linear-gradient(135deg, #00f5ff 0%, #0ea5e9 50%, #2563eb 100%)',
     icon: '🎛️',
     award: false,
-    bannerImage: '/projects/mimo-control/Aero LQG.png',
+    bannerImage: './projects/mimo-control/Aero LQG.png',
     images: [
-      { src: '/projects/mimo-control/Aero LQG.png', alt: 'Aero LQG' },
-      { src: '/projects/mimo-control/Fixed robot link.png', alt: 'Fixed Robot Link' },
-      { src: '/projects/mimo-control/Flexible joint robot - tracking.png', alt: 'Flexible Joint Tracking' }
+      { src: './projects/mimo-control/Aero LQG.png', alt: 'Aero LQG' },
+      { src: './projects/mimo-control/Fixed robot link.png', alt: 'Fixed Robot Link' },
+      { src: './projects/mimo-control/Flexible joint robot - tracking.png', alt: 'Flexible Joint Tracking' }
     ],
   },
   // ── AI Research ────────────────────────────────
@@ -300,9 +300,9 @@ export const projects = [
     gradient: 'linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #d97706 100%)',
     icon: '🔬',
     award: true,
-    bannerImage: '/projects/physics-ai/Merit award.png',
-    images: [{ src: '/projects/physics-ai/Merit award.png', alt: 'Merit Award' }],
-    files: [{ url: '/projects/physics-ai/Poster PINN.pdf', label: 'Research Poster' }],
+    bannerImage: './projects/physics-ai/Merit award.png',
+    images: [{ src: './projects/physics-ai/Merit award.png', alt: 'Merit Award' }],
+    files: [{ url: './projects/physics-ai/Poster PINN.pdf', label: 'Research Poster' }],
   },
 
   // ── Others ─────────────────────────────────────
@@ -316,10 +316,10 @@ export const projects = [
     gradient: 'linear-gradient(135deg, #34d399 0%, #10b981 50%, #059669 100%)',
     icon: '📈',
     award: false,
-    bannerImage: '/projects/discrete-simulation/Anylogic simulation.png',
+    bannerImage: './projects/discrete-simulation/Anylogic simulation.png',
     images: [
-      { src: '/projects/discrete-simulation/Anylogic simulation.png', alt: 'AnyLogic Simulation' },
-      { src: '/projects/discrete-simulation/Heytea, sensitivity.png', alt: 'Sensitivity Analysis' }
+      { src: './projects/discrete-simulation/Anylogic simulation.png', alt: 'AnyLogic Simulation' },
+      { src: './projects/discrete-simulation/Heytea, sensitivity.png', alt: 'Sensitivity Analysis' }
     ],
   },
   {
@@ -332,11 +332,11 @@ export const projects = [
     gradient: 'linear-gradient(135deg, #fb923c 0%, #f97316 50%, #ea580c 100%)',
     icon: '🍳',
     award: false,
-    bannerImage: '/projects/FOG-SMEC/Research.png',
-    images: [{ src: '/projects/FOG-SMEC/Research.png', alt: 'Research Findings' }],
+    bannerImage: './projects/FOG-SMEC/Research.png',
+    images: [{ src: './projects/FOG-SMEC/Research.png', alt: 'Research Findings' }],
     files: [
-      { url: '/projects/FOG-SMEC/ConceptDiagram_Final_AJ3.pdf', label: 'Concept Diagram' },
-      { url: '/projects/FOG-SMEC/Final Report (1).docx', label: 'Final Report' }
+      { url: './projects/FOG-SMEC/ConceptDiagram_Final_AJ3.pdf', label: 'Concept Diagram' },
+      { url: './projects/FOG-SMEC/Final Report (1).docx', label: 'Final Report' }
     ],
   },
   {
@@ -349,10 +349,10 @@ export const projects = [
     gradient: 'linear-gradient(135deg, #818cf8 0%, #6366f1 50%, #4f46e5 100%)',
     icon: '🔍',
     award: false,
-    bannerImage: '/projects/Advanced material forensic analysis/EBSD materials.png',
+    bannerImage: './projects/Advanced material forensic analysis/EBSD materials.png',
     images: [
-      { src: '/projects/Advanced material forensic analysis/EBSD materials.png', alt: 'EBSD Materials' },
-      { src: '/projects/Advanced material forensic analysis/Grain orientation.png', alt: 'Grain Orientation' }
+      { src: './projects/Advanced material forensic analysis/EBSD materials.png', alt: 'EBSD Materials' },
+      { src: './projects/Advanced material forensic analysis/Grain orientation.png', alt: 'Grain Orientation' }
     ],
   },
   {
@@ -366,10 +366,10 @@ export const projects = [
     icon: '📐',
     award: false,
     files: [
-      { url: '/projects/statistical-qc/Assembly_line.pdf', label: 'Assembly Line' },
-      { url: '/projects/statistical-qc/Design layout.pdf', label: 'Design Layout' },
-      { url: '/projects/statistical-qc/Total time estimate.pdf', label: 'Time Estimate' },
-      { url: '/projects/statistical-qc/Q4_part1.pdf', label: 'Analysis Part 1' }
+      { url: './projects/statistical-qc/Assembly_line.pdf', label: 'Assembly Line' },
+      { url: './projects/statistical-qc/Design layout.pdf', label: 'Design Layout' },
+      { url: './projects/statistical-qc/Total time estimate.pdf', label: 'Time Estimate' },
+      { url: './projects/statistical-qc/Q4_part1.pdf', label: 'Analysis Part 1' }
     ],
   },
 ];
@@ -388,7 +388,7 @@ export const education = [
       'Fluid Dynamics and Thermodynamics',
     ],
     color: '#00f5ff',
-    files: [{ url: '/education/Testamur_masters.pdf', label: 'Testamur' }],
+    files: [{ url: './education/Testamur_masters.pdf', label: 'Testamur' }],
   },
   {
     degree: "Bachelor's in Mechanical Engineering",
@@ -403,19 +403,19 @@ export const education = [
       'System Modelling & Analysis, Management & Finance',
     ],
     color: '#a855f7',
-    files: [{ url: '/education/Bachelors certificate.pdf', label: 'Degree Certificate' }],
+    files: [{ url: './education/Bachelors certificate.pdf', label: 'Degree Certificate' }],
   },
 ];
 
 export const certifications = [
-  { name: 'Lean Six Sigma Green Belt (SSGI)', file: '/certifications/SIX SIGMA.pdf' },
-  { name: 'Machine Design (Coursera)', file: '/certifications/machine design.pdf' },
-  { name: 'Applications in Engineering Mechanics (Coursera)', file: '/certifications/Applications in Engineering Mechanics.png' },
-  { name: 'Learning SOLIDWORKS (Udemy)', file: '/certifications/Solidworks.png' },
-  { name: 'AI for Everyone (DeepLearning.AI)', file: '/certifications/AI for everyone.png' },
-  { name: 'Python Programming (U-Michigan)', file: '/certifications/Python Programming.png' },
-  { name: 'Business Analytics (LinkedIn)', file: '/certifications/Business Analytics.png' },
-  { name: 'Working with Children Check', file: '/certifications/wwcc.jpg' },
+  { name: 'Lean Six Sigma Green Belt (SSGI)', file: './certifications/SIX SIGMA.pdf' },
+  { name: 'Machine Design (Coursera)', file: './certifications/machine design.pdf' },
+  { name: 'Applications in Engineering Mechanics (Coursera)', file: './certifications/Applications in Engineering Mechanics.png' },
+  { name: 'Learning SOLIDWORKS (Udemy)', file: './certifications/Solidworks.png' },
+  { name: 'AI for Everyone (DeepLearning.AI)', file: './certifications/AI for everyone.png' },
+  { name: 'Python Programming (U-Michigan)', file: './certifications/Python Programming.png' },
+  { name: 'Business Analytics (LinkedIn)', file: './certifications/Business Analytics.png' },
+  { name: 'Working with Children Check', file: './certifications/wwcc.jpg' },
 ];
 
 export const memberships = [

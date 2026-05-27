@@ -218,7 +218,7 @@ export const projects = [
     subtitle: 'Medical Research Applications',
     category: 'Product Design',
     description:
-      'Reverse-engineered a spinal tendon rig actuator (U-block) using SolidWorks and designed a custom bicycle frame in AutoCAD. Produced AS1100 compliant drawings and 3D printed components. Validated stress via FEA in Abaqus and ANSYS.',
+      'Reverse-engineered a spinal tendon rig actuator (U-block) using SolidWorks and AutoCAD. Produced AS1100 compliant drawings and 3D printed components. Validated stress via FEA in Abaqus and ANSYS.',
     tags: ['SolidWorks', 'Abaqus', 'ANSYS', '3D Printing'],
     gradient: 'linear-gradient(135deg, #22d3ee 0%, #06b6d4 50%, #0891b2 100%)',
     icon: '🦴',
